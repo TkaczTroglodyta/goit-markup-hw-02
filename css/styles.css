@@ -8,7 +8,9 @@
   --color-bgcolor-dark: #2f303a;
   --font-family-secondary: 'Raleway', sans-serif;
 }
-
+body {
+  background-color: #ffffff;
+}
 .button {
   color: #f5f4fa;
 }
