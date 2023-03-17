@@ -34,8 +34,7 @@ body {
   color: #757575;
 }
 .nav-contact-links .link:hover,
-.nav-contact-links .link:focus,
-.nav-contact-links .link:active {
+.nav-contact-links .link:focus {
   color: #2196f3;
 }
 button {
