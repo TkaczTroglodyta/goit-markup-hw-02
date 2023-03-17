@@ -17,17 +17,30 @@ ul {
 a {
   text-decoration: none;
 }
-button {
-  cursor: pointer;
-}
 body {
   background-color: #ffffff;
 }
-.button {
-  color: #f5f4fa;
+.link {
+  color: #212121;
+}
+.nav-logo {
+  text-decoration: none;
+  color: #2196f3;
 }
 .nav-menu {
+  text-decoration: none;
 }
 .nav-contact-links {
   color: #757575;
+}
+.nav-contact-links .link:hover,
+.nav-contact-links .link:focus,
+.nav-contact-links .link:active {
+  color: #2196f3;
+}
+button {
+  cursor: pointer;
+  background-color: #f5f4fa;
+  text-decoration: none;
+  text-align: center;
 }
