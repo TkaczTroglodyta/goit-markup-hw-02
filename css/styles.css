@@ -18,14 +18,18 @@ a {
   text-decoration: none;
 }
 body {
-  background-color: #ffffff;
+  background-color: var(--color-bgcolor-primary);
 }
 .link {
-  color: #212121;
+  color: var(--color-text-primary);
 }
-.nav-logo {
+.logo {
   text-decoration: none;
-  color: #2196f3;
+  color: var(--color-text-secondary);
+  font-family: var(--font-family-secondary), sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 30.52px;
 }
 .nav-menu {
   text-decoration: none;
@@ -35,7 +39,7 @@ body {
 }
 .nav-contact-links .link:hover,
 .nav-contact-links .link:focus {
-  color: #2196f3;
+  color: var(--color-text-primary);
 }
 button {
   cursor: pointer;
