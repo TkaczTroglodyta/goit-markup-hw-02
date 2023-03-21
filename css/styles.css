@@ -31,15 +31,11 @@ body {
 .link-contact {
   color: var(--color-text-contact);
 }
-.link-contact:hover {
+/* .link-contact:hover {
   color: var(--color-text-secondary);
-}
+} */
 .header {
   overflow: hidden;
-  width: 1600px;
-  height: 80px;
-  left: 0px;
-  top: 0px;
 }
 .header a {
   float: left;
@@ -51,7 +47,7 @@ body {
   font-size: 26px;
   font-weight: 700;
   line-height: 30.52px;
-  top: 24px;
+  letter-spacing: 0.03em;
 }
 .nav-menu,
 .nav-contacts {
@@ -59,14 +55,13 @@ body {
   font-size: 14px;
   font-weight: 500;
   line-height: 16.41px;
-  top: 32px;
+  letter-spacing: 0.02em;
 }
 .nav-menu li {
-  display: inline;
+  display: inline-block;
 }
 .nav-contacts li {
-  float: right;
-  display: inline;
+  display: inline-block;
 }
 .btn {
   cursor: pointer;
