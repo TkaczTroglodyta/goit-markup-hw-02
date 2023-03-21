@@ -34,6 +34,16 @@ body {
 .link-contact:hover {
   color: var(--color-text-secondary);
 }
+.header {
+  overflow: hidden;
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+}
+.header a {
+  float: left;
+}
 .logo {
   text-decoration: none;
   color: var(--color-text-secondary);
@@ -41,7 +51,7 @@ body {
   font-size: 26px;
   font-weight: 700;
   line-height: 30.52px;
-  display: inline;
+  top: 24px;
 }
 .nav-menu,
 .nav-contacts {
@@ -49,13 +59,14 @@ body {
   font-size: 14px;
   font-weight: 500;
   line-height: 16.41px;
-  /* list-style-type: none; */
+  top: 32px;
 }
 .nav-menu li {
-  display: inline-block;
+  display: inline;
 }
 .nav-contacts li {
-  display: inline-block;
+  float: right;
+  display: inline;
 }
 .btn {
   cursor: pointer;
