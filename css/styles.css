@@ -33,6 +33,10 @@ body {
 }
 .nav-menu {
   text-decoration: none;
+  /* list-style-type: none; */
+}
+.nav-menu li {
+  display: inline-block;
 }
 .nav-contact-links {
   color: #757575;
