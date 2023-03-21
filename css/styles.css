@@ -24,6 +24,16 @@ body {
 .link {
   color: var(--color-text-primary);
 }
+.link:hover,
+.link:focus {
+  color: var(--color-text-secondary);
+}
+.link-contact {
+  color: var(--color-text-contact);
+}
+.link-contact:hover {
+  color: var(--color-text-secondary);
+}
 .logo {
   text-decoration: none;
   color: var(--color-text-secondary);
@@ -34,16 +44,19 @@ body {
 }
 .nav-menu {
   text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.41px;
   /* list-style-type: none; */
 }
 .nav-menu li {
   display: inline-block;
 }
-.nav-contact-links {
-  color: #757575;
+.nav-contacts {
+  text-decoration: none;
 }
-.nav-contact-links .link:hover,
-.nav-contact-links .link:focus {
+.nav-contacts-links .link:hover,
+.nav-contacts-links .link:focus {
   color: var(--color-text-primary);
 }
 button {
