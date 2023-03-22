@@ -48,6 +48,8 @@ body {
   font-weight: 700;
   line-height: 30.52px;
   letter-spacing: 0.03em;
+  display: inline-block;
+  pointer-events: none;
 }
 .nav-menu,
 .nav-contacts {
