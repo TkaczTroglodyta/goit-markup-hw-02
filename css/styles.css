@@ -18,16 +18,20 @@ ul {
 a {
   text-decoration: none;
 }
+a:hover,
+a:focus {
+  color: var(--color-text-secondary);
+}
 body {
   background-color: var(--color-bgcolor-primary);
 }
-.link {
+/* .link {
   color: var(--color-text-primary);
 }
 .link:hover,
 .link:focus {
   color: var(--color-text-secondary);
-}
+} */
 .link-contact {
   color: var(--color-text-contact);
 }
@@ -48,6 +52,8 @@ body {
   font-weight: 700;
   line-height: 30.52px;
   letter-spacing: 0.03em;
+  display: inline-block;
+  pointer-events: none;
 }
 .nav-menu,
 .nav-contacts {
