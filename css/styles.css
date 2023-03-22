@@ -24,6 +24,7 @@ a:focus {
 }
 body {
   background-color: var(--color-bgcolor-primary);
+  text-decoration: none;
 }
 .link-contact {
   color: var(--color-text-contact);
@@ -35,7 +36,6 @@ body {
   float: left;
 } */
 .logo {
-  text-decoration: none;
   color: var(--color-text-secondary);
   font-family: var(--font-family-secondary), sans-serif;
   font-size: 26px;
@@ -47,7 +47,6 @@ body {
 }
 .nav-menu,
 .nav-contacts {
-  text-decoration: none;
   font-size: 14px;
   font-weight: 500;
   line-height: 16.41px;
