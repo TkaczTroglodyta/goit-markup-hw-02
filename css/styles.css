@@ -25,19 +25,9 @@ a:focus {
 body {
   background-color: var(--color-bgcolor-primary);
 }
-/* .link {
-  color: var(--color-text-primary);
-}
-.link:hover,
-.link:focus {
-  color: var(--color-text-secondary);
-} */
 .link-contact {
   color: var(--color-text-contact);
 }
-/* .link-contact:hover {
-  color: var(--color-text-secondary);
-} */
 .header {
   overflow: hidden;
 }
