@@ -21,11 +21,8 @@ a {
 body {
   background-color: var(--color-bgcolor-primary);
 }
-.link {
-  color: var(--color-text-primary);
-}
-.link:hover,
-.link:focus {
+a:hover,
+a:focus {
   color: var(--color-text-secondary);
 }
 .link-contact {
