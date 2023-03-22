@@ -36,9 +36,9 @@ a:focus {
 .link-contact {
   color: var(--color-text-contact);
 }
-/* .link-contact:hover {
-  color: var(--color-text-secondary);
-} */
+.link-contact:hover {
+  color: var(--color-text-primary);
+}
 .header {
   overflow: hidden;
 }
