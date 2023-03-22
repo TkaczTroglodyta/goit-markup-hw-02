@@ -28,12 +28,12 @@ body {
 .link-contact {
   color: var(--color-text-contact);
 }
-.header {
+/* .header {
   overflow: hidden;
 }
 .header a {
   float: left;
-}
+} */
 .logo {
   text-decoration: none;
   color: var(--color-text-secondary);
