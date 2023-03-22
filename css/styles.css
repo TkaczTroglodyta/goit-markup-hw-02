@@ -31,15 +31,6 @@ body {
 .link-contact .link-contact:hover {
   color: var(--color-text-contact);
 }
-/* .link-contact:hover {
-  color: var(--color-text-secondary);
-} */
-.header {
-  overflow: hidden;
-}
-.header a {
-  float: left;
-}
 .logo {
   text-decoration: none;
   color: var(--color-text-secondary);
