@@ -19,6 +19,7 @@ a {
   text-decoration: none;
 }
 body {
+  font-family: 'Roboto', sans-serif;
   background-color: var(--color-bgcolor-primary);
 }
 .link {
@@ -28,10 +29,14 @@ body {
 .link:focus {
   color: var(--color-text-secondary);
 }
-.link-contact .link-contact:hover {
+.link-contact,
+.link-contact:hover {
   color: var(--color-text-contact);
 }
-.logo {
+.nav-top {
+  overflow: hidden;
+}
+.nav-logo {
   text-decoration: none;
   color: var(--color-text-secondary);
   font-family: var(--font-family-secondary), sans-serif;
@@ -39,8 +44,7 @@ body {
   font-weight: 700;
   line-height: 30.52px;
   letter-spacing: 0.03em;
-  display: inline-block;
-  pointer-events: none;
+  /* display: inline-block; */
 }
 .nav-menu,
 .nav-contacts {
@@ -49,13 +53,14 @@ body {
   font-weight: 500;
   line-height: 16.41px;
   letter-spacing: 0.02em;
+  /* display: inline; */
 }
-.nav-menu li {
+/* .nav-menu li {
   display: inline-block;
 }
 .nav-contacts li {
   display: inline-block;
-}
+} */
 .btn {
   cursor: pointer;
   background-color: #f5f4fa;
