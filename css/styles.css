@@ -17,37 +17,41 @@ ul {
 }
 a {
   text-decoration: none;
-  color: var(--color-text-primary);
-}
-a:hover,
-a:focus {
-  color: var(--color-text-secondary);
 }
 body {
   background-color: var(--color-bgcolor-primary);
-  text-decoration: none;
+}
+.link {
+  color: var(--color-text-primary);
+}
+.link:hover,
+.link:focus {
+  color: var(--color-text-secondary);
 }
 .link-contact {
   color: var(--color-text-contact);
 }
-/* .header {
+/* .link-contact:hover {
+  color: var(--color-text-secondary);
+} */
+.header {
   overflow: hidden;
 }
 .header a {
   float: left;
-} */
+}
 .logo {
+  text-decoration: none;
   color: var(--color-text-secondary);
   font-family: var(--font-family-secondary), sans-serif;
   font-size: 26px;
   font-weight: 700;
   line-height: 30.52px;
   letter-spacing: 0.03em;
-  display: inline-block;
-  pointer-events: none;
 }
 .nav-menu,
 .nav-contacts {
+  text-decoration: none;
   font-size: 14px;
   font-weight: 500;
   line-height: 16.41px;
