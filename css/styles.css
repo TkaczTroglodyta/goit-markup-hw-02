@@ -28,7 +28,7 @@ body {
 .link:focus {
   color: var(--color-text-secondary);
 }
-.link-contact {
+.link-contact .link-contact:hover {
   color: var(--color-text-contact);
 }
 /* .link-contact:hover {
