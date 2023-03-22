@@ -17,27 +17,22 @@ ul {
 }
 a {
   text-decoration: none;
-  color: var(--color-text-primary);
-}
-a:hover,
-a:focus {
-  color: var(--color-text-secondary);
 }
 body {
   background-color: var(--color-bgcolor-primary);
 }
-/* .link {
+.link {
   color: var(--color-text-primary);
 }
 .link:hover,
 .link:focus {
   color: var(--color-text-secondary);
-} */
-.link-contact .link-contact:hover .link-contact:focus {
+}
+.link-contact {
   color: var(--color-text-contact);
 }
 /* .link-contact:hover {
-  color: var(--color-text-primary);
+  color: var(--color-text-secondary);
 } */
 .header {
   overflow: hidden;
@@ -53,8 +48,6 @@ body {
   font-weight: 700;
   line-height: 30.52px;
   letter-spacing: 0.03em;
-  pointer-events: none;
-  display: inline-block;
 }
 .nav-menu,
 .nav-contacts {
