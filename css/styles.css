@@ -19,6 +19,10 @@ a {
   text-decoration: none;
   color: var(--color-text-primary);
 }
+a:hover,
+a:focus {
+  color: var(--color-text-secondary);
+}
 body {
   background-color: var(--color-bgcolor-primary);
 }
@@ -29,16 +33,12 @@ body {
 .link:focus {
   color: var(--color-text-secondary);
 } */
-a:hover,
-a:focus {
-  color: var(--color-text-secondary);
-}
-.link-contact {
+.link-contact .link-contact:hover .link-contact:focus {
   color: var(--color-text-contact);
 }
-.link-contact:hover {
+/* .link-contact:hover {
   color: var(--color-text-primary);
-}
+} */
 .header {
   overflow: hidden;
 }
