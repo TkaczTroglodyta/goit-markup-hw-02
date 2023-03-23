@@ -7,7 +7,7 @@
   --color-bgcolor-primary: #ffffff;
   --color-bgcolor-secondary: #eeeeee;
   --color-bgcolor-dark: #2f303a;
-  --color-btn-primary: ##f5f4fa;
+  --color-btn-primary: #f5f4fa;
   --font-family-secondary: 'Raleway', sans-serif;
 }
 * {
@@ -57,9 +57,19 @@ body {
 .link-contact:hover {
   color: var(--color-text-contact);
 }
-.btn {
+.portfolio {
+  text-decoration: none;
+}
+.btn-filter {
   cursor: pointer;
+  color: var(--color-text-primary);
   background-color: var(--color-btn-primary);
   text-decoration: none;
   text-align: center;
+  border: none;
+}
+.btn-filter:hover,
+.btn-filter:focus {
+  color: var(--color-text-light);
+  background-color: var(--color-text-secondary);
 }
