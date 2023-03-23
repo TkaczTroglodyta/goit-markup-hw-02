@@ -28,21 +28,11 @@ body {
   font-family: 'Roboto', sans-serif;
   background-color: var(--color-bgcolor-primary);
 }
-.link {
-  color: var(--color-text-primary);
-}
-.link:hover,
-.link:focus {
-  color: var(--color-text-secondary);
-}
-.link-contact,
-.link-contact:hover {
-  color: var(--color-text-contact);
-}
-.nav-top {
+.nav-top ul li {
   display: inline-block;
 }
-.nav-logo {
+.nav-logo,
+.nav-footer {
   text-decoration: none;
   color: var(--color-text-secondary);
   font-family: var(--font-family-secondary), sans-serif;
@@ -61,9 +51,14 @@ body {
   letter-spacing: 0.02em;
   display: inline-block;
 }
-.nav-menu li {
-  display: inline-block;
+.link {
+  color: var(--color-text-primary);
 }
-.nav-contacts li {
-  display: inline-block;
+.link:hover,
+.link:focus {
+  color: var(--color-text-secondary);
+}
+.link-contact,
+.link-contact:hover {
+  color: var(--color-text-contact);
 }
