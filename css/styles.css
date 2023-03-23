@@ -18,6 +18,12 @@ ul {
 a {
   text-decoration: none;
 }
+.btn {
+  cursor: pointer;
+  background-color: #f5f4fa;
+  text-decoration: none;
+  text-align: center;
+}
 body {
   font-family: 'Roboto', sans-serif;
   background-color: var(--color-bgcolor-primary);
@@ -34,8 +40,7 @@ body {
   color: var(--color-text-contact);
 }
 .nav-top {
-  display: inline;
-  overflow: hidden;
+  display: inline-block;
 }
 .nav-logo {
   text-decoration: none;
@@ -45,7 +50,7 @@ body {
   font-weight: 700;
   line-height: 30.52px;
   letter-spacing: 0.03em;
-  /* display: inline-block; */
+  display: inline-block;
 }
 .nav-menu,
 .nav-contacts {
@@ -54,17 +59,11 @@ body {
   font-weight: 500;
   line-height: 16.41px;
   letter-spacing: 0.02em;
-  /* display: inline; */
+  display: inline-block;
 }
-/* .nav-menu li {
+.nav-menu li {
   display: inline-block;
 }
 .nav-contacts li {
   display: inline-block;
-} */
-.btn {
-  cursor: pointer;
-  background-color: #f5f4fa;
-  text-decoration: none;
-  text-align: center;
 }
