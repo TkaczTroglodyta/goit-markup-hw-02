@@ -4,6 +4,7 @@
   --color-text-secondary: #2196f3;
   --color-text-light: #ffffff;
   --color-text-contact: #757575;
+  --color-text-contact-f: #ffffff60;
   --color-bgcolor-primary: #ffffff;
   --color-bgcolor-secondary: #eeeeee;
   --color-bgcolor-dark: #2f303a;
@@ -86,18 +87,16 @@ section h3 {
 section p {
   text-decoration: none;
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.9;
   letter-spacing: 0.03em;
 }
 .nav-footer {
   background-color: var(--color-bgcolor-dark);
 }
-.nav-footer-adr {
+.nav-footer ul {
   text-decoration: none;
   color: var(--color-text-light);
   font-size: 14px;
-  font-weight: 400;
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
