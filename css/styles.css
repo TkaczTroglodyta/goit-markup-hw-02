@@ -33,7 +33,7 @@ body {
   font-family: var(--font-family-secondary), sans-serif;
   font-size: 26px;
   font-weight: 700;
-  line-height: 30.52px;
+  line-height: 1.2;
   letter-spacing: 0.03em;
   display: inline-block;
 }
@@ -42,7 +42,7 @@ body {
   text-decoration: none;
   font-size: 14px;
   font-weight: 500;
-  line-height: 16.41px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   display: inline-block;
 }
@@ -73,18 +73,21 @@ body {
   color: var(--color-text-light);
   background-color: var(--color-text-secondary);
 }
+.container-bg {
+  color: var(--color-bgcolor-primary);
+}
 section h3 {
   text-decoration: none;
   font-size: 18px;
   font-weight: 700;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
 }
 section p {
   text-decoration: none;
   font-size: 16px;
   font-weight: 400;
-  line-height: 30px;
+  line-height: 1.9;
   letter-spacing: 0.03em;
 }
 .nav-footer {
