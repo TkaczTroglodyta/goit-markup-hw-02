@@ -93,3 +93,11 @@ section p {
 .nav-footer {
   background-color: var(--color-bgcolor-dark);
 }
+.nav-footer-adr {
+  text-decoration: none;
+  color: var(--color-text-light);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
