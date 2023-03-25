@@ -58,7 +58,7 @@ body {
   color: var(--color-text-contact);
 }
 .portfolio {
-  text-decoration: none;
+  display: inline-block;
 }
 .btn-filter {
   cursor: pointer;
