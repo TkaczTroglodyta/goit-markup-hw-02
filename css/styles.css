@@ -76,7 +76,6 @@ body {
 }
 .container-bg {
   display: inline-block;
-  /* color: var(--color-text-primary); */
 }
 section h3 {
   text-decoration: none;
