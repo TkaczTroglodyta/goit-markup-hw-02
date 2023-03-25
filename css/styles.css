@@ -75,7 +75,7 @@ body {
   background-color: var(--color-text-secondary);
 }
 .container-bg {
-  color: var(--color-bgcolor-primary);
+  color: var(--color-text-primary);
 }
 section h3 {
   text-decoration: none;
