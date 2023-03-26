@@ -63,11 +63,12 @@ body {
 .slogan {
   background-color: var(--color-bgcolor-dark);
 }
-.slogan {
+.slogan h1 {
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
   letter-spacing: 0.06em;
+  color: var(--color-text-light);
   text-align: center;
   text-transform: uppercase;
 }
@@ -75,8 +76,16 @@ body {
   cursor: pointer;
   color: var(--color-text-light);
   background-color: var(--color-bgcolor-secondary);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.9;
   text-align: center;
   border: none;
+}
+.btn-slogan:hover,
+.btn-slogan:focus {
+  color: var(--color-text-primary);
+  background-color: var(--color-bgcolor-light);
 }
 .btn-filter {
   cursor: pointer;
@@ -97,7 +106,7 @@ body {
   text-align: center;
 }
 .infos h3 {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 700;
   line-height: 1.1;
   text-transform: uppercase;
