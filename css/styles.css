@@ -5,6 +5,7 @@
   --color-text-light: #ffffff;
   --color-text-medium: #757575;
   --color-bgcolor-primary: #ffffff;
+  --color-bgcolor-secondary: #2196f3;
   --color-bgcolor-light: #f5f4fa;
   --color-bgcolor-dark: #2f303a;
   --font-family-primary: 'Roboto', sans-serif;
@@ -62,13 +63,20 @@ body {
 .slogan {
   background-color: var(--color-bgcolor-dark);
 }
-.slogan h1 {
+.slogan {
   font-size: 44px;
-  font-weight: 600;
+  font-weight: 900;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-align: center;
   text-transform: uppercase;
+}
+.btn-slogan {
+  cursor: pointer;
+  color: var(--color-text-light);
+  background-color: var(--color-bgcolor-secondary);
+  text-align: center;
+  border: none;
 }
 .btn-filter {
   cursor: pointer;
@@ -81,6 +89,12 @@ body {
 .btn-filter:focus {
   color: var(--color-text-light);
   background-color: var(--color-text-secondary);
+}
+.lead-tekst {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
 }
 .infos h3 {
   font-size: 16px;
@@ -95,10 +109,13 @@ body {
 .team {
   background-color: var(--color-bgcolor-light);
 }
-.infos-t h3 {
-  font-size: 16;
-  font-weight: 500;
+.infos-team {
+  font-size: 16px;
   line-height: 1.2;
+  text-align: center;
+}
+.infos-team h3 {
+  font-weight: 500;
 }
 .achievements h3 {
   font-size: 18px;
