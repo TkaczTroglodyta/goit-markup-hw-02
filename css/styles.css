@@ -9,6 +9,7 @@
   --color-bgcolor-secondary: #eeeeee;
   --color-bgcolor-dark: #2f303a;
   --color-btn-primary: #f5f4fa;
+  --font-family-primary: 'Roboto', sans-serif;
   --font-family-secondary: 'Raleway', sans-serif;
 }
 * {
@@ -21,7 +22,7 @@ a {
   text-decoration: none;
 }
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--font-family-primary);
   background-color: var(--color-bgcolor-primary);
 }
 .nav-top ul li {
