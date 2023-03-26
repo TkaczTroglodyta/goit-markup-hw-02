@@ -91,6 +91,9 @@ body {
   cursor: pointer;
   color: var(--color-text-primary);
   background-color: var(---color-bgcolor-light);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.6;
   text-align: center;
   border: none;
 }
