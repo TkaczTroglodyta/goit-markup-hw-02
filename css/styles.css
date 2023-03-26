@@ -4,7 +4,6 @@
   --color-text-secondary: #2196f3;
   --color-text-light: #ffffff;
   --color-text-contact: #757575;
-  --color-text-contact-f: #ffffff60;
   --color-bgcolor-primary: #ffffff;
   --color-bgcolor-secondary: #eeeeee;
   --color-bgcolor-dark: #2f303a;
@@ -20,44 +19,42 @@ ul {
 }
 a {
   text-decoration: none;
+  color: var(--color-text-secondary);
 }
 body {
   font-family: var(--font-family-primary);
   background-color: var(--color-bgcolor-primary);
 }
-.nav-top ul li {
+.header {
+  background-color: var(--color-bgcolor-primary);
+}
+.header ul li {
   display: inline-block;
 }
-.nav-logo,
-.nav-footer-logo {
-  text-decoration: none;
-  color: var(--color-text-secondary);
+.logo {
   font-family: var(--font-family-secondary), sans-serif;
   font-size: 26px;
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  display: inline-block;
 }
-.nav-menu,
-.nav-contacts {
-  text-decoration: none;
+.menu,
+.contacts {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  display: inline-block;
 }
 .link {
   color: var(--color-text-primary);
 }
-.link:hover,
-.link:focus {
-  color: var(--color-text-secondary);
-}
-.link-contact,
-.link-contact:hover {
+.link-contact {
   color: var(--color-text-contact);
+}
+.link:hover,
+.link:focus,
+.link-contact:hover {
+  color: var(--color-text-secondary);
 }
 .portfolio {
   display: inline-block;
@@ -66,7 +63,6 @@ body {
   cursor: pointer;
   color: var(--color-text-primary);
   background-color: var(--color-btn-primary);
-  text-decoration: none;
   text-align: center;
   border: none;
 }
@@ -91,13 +87,13 @@ section p {
   line-height: 1.9;
   letter-spacing: 0.03em;
 }
-.nav-footer {
+.footer {
   background-color: var(--color-bgcolor-dark);
 }
-.nav-footer ul {
-  text-decoration: none;
+.addr {
   color: var(--color-text-light);
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+  font-style: normal;
 }
