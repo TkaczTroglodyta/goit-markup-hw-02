@@ -3,11 +3,10 @@
   --color-text-primary: #212121;
   --color-text-secondary: #2196f3;
   --color-text-light: #ffffff;
-  --color-text-contact: #757575;
+  --color-text-medium: #757575;
   --color-bgcolor-primary: #ffffff;
-  --color-bgcolor-secondary: #eeeeee;
+  --color-bgcolor-light: #f5f4fa;
   --color-bgcolor-dark: #2f303a;
-  --color-btn-primary: #f5f4fa;
   --font-family-primary: 'Roboto', sans-serif;
   --font-family-secondary: 'Raleway', sans-serif;
 }
@@ -21,13 +20,20 @@ a {
   text-decoration: none;
   color: var(--color-text-secondary);
 }
+p {
+  color: var(--color-text-medium);
+}
 body {
   font-family: var(--font-family-primary);
   background-color: var(--color-bgcolor-primary);
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
-.navigation {
+.lt-bg {
   background-color: var(--color-bgcolor-primary);
+}
+.dark-bg {
+  background-color: var(--color-bgcolor-dark);
 }
 .logo {
   font-family: var(--font-family-secondary), sans-serif;
@@ -46,17 +52,28 @@ body {
   color: var(--color-text-primary);
 }
 .link-contact {
-  color: var(--color-text-contact);
+  color: var(--color-text-medium);
 }
 .link:hover,
 .link:focus,
 .link-contact:hover {
   color: var(--color-text-secondary);
 }
+.slogan {
+  background-color: var(--color-bgcolor-dark);
+}
+.slogan h1 {
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
+  text-transform: uppercase;
+}
 .btn-filter {
   cursor: pointer;
   color: var(--color-text-primary);
-  background-color: var(--color-btn-primary);
+  background-color: var(---color-bgcolor-light);
   text-align: center;
   border: none;
 }
@@ -65,8 +82,23 @@ body {
   color: var(--color-text-light);
   background-color: var(--color-text-secondary);
 }
-.achievements {
-  text-decoration: none;
+.infos h3 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+.infos p {
+  font-size: 14px;
+  line-height: 1.7;
+}
+.team {
+  background-color: var(--color-bgcolor-light);
+}
+.infos-t h3 {
+  font-size: 16;
+  font-weight: 500;
+  line-height: 1.2;
 }
 .achievements h3 {
   font-size: 18px;
@@ -77,9 +109,6 @@ body {
 .achievements p {
   font-size: 16px;
   line-height: 1.9;
-}
-.dark-bg {
-  background-color: var(--color-bgcolor-dark);
 }
 .addr {
   color: var(--color-text-light);
