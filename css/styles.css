@@ -24,8 +24,9 @@ a {
 body {
   font-family: var(--font-family-primary);
   background-color: var(--color-bgcolor-primary);
+  letter-spacing: 0.03em;
 }
-.header {
+.navigation {
   background-color: var(--color-bgcolor-primary);
 }
 .logo {
@@ -33,7 +34,6 @@ body {
   font-size: 26px;
   font-weight: 700;
   line-height: 1.2;
-  letter-spacing: 0.03em;
 }
 .menu,
 .contacts {
@@ -65,27 +65,25 @@ body {
   color: var(--color-text-light);
   background-color: var(--color-text-secondary);
 }
-.sect {
+.achievements {
   text-decoration: none;
 }
-.sect h3 {
+.achievements h3 {
   font-size: 18px;
   font-weight: 700;
   line-height: 2;
   letter-spacing: 0.06em;
 }
-.sect p {
+.achievements p {
   font-size: 16px;
   line-height: 1.9;
-  letter-spacing: 0.03em;
 }
-.ftr {
+.dark-bg {
   background-color: var(--color-bgcolor-dark);
 }
 .addr {
   color: var(--color-text-light);
   font-size: 14px;
   line-height: 1.7;
-  letter-spacing: 0.03em;
   font-style: normal;
 }
