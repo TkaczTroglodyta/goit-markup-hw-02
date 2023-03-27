@@ -80,15 +80,10 @@ body {
   text-align: center;
   border: none;
 }
-.btn-slogan:hover,
-.btn-slogan:focus {
-  color: var(--color-text-primary);
-  background-color: var(--color-bgcolor-light);
-}
 .btn-filter {
   cursor: pointer;
   color: var(--color-text-primary);
-  background-color: var(---color-bgcolor-light);
+  background-color: var(--color-bgcolor-light);
   font-weight: 500;
   line-height: 1.6;
   text-align: center;
