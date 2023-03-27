@@ -28,7 +28,6 @@ body {
   font-family: var(--font-family-primary);
   background-color: var(--color-bgcolor-primary);
   letter-spacing: 0.03em;
-  text-decoration: none;
 }
 .lt-bg {
   background-color: var(--color-bgcolor-primary);
@@ -76,7 +75,6 @@ body {
   cursor: pointer;
   color: var(--color-text-light);
   background-color: var(--color-bgcolor-secondary);
-  font-size: 16px;
   font-weight: 700;
   line-height: 1.9;
   text-align: center;
@@ -91,7 +89,6 @@ body {
   cursor: pointer;
   color: var(--color-text-primary);
   background-color: var(---color-bgcolor-light);
-  font-size: 16px;
   font-weight: 500;
   line-height: 1.6;
   text-align: center;
@@ -122,7 +119,6 @@ body {
   background-color: var(--color-bgcolor-light);
 }
 .infos-team {
-  font-size: 16px;
   line-height: 1.2;
   text-align: center;
 }
@@ -136,7 +132,6 @@ body {
   letter-spacing: 0.06em;
 }
 .achievements p {
-  font-size: 16px;
   line-height: 1.9;
 }
 .addr {
