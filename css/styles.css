@@ -81,7 +81,6 @@ body {
   background-color: var(--color-bgcolor-secondary);
   font-weight: 700;
   line-height: 1.9;
-  text-align: center;
   border: none;
 }
 .btn-filter {
@@ -90,7 +89,7 @@ body {
   background-color: var(--color-bgcolor-light);
   font-weight: 700;
   line-height: 1.6;
-  text-align: center;
+  /* text-align: center; */
   border: none;
 }
 .btn-filter:hover,
